@@ -27,4 +27,4 @@ jobs:
       run: nuget restore BugGuardian.MVC.sln
 
     - name: Build the Solution
-      run: msbuild BugGuardian.MVC.sln /p:Configuration=Release
+      run: msbuild BugGuardian.MVC.sln
